@@ -22,11 +22,12 @@ You can download and install JKI Simple Localization with VI Package Manager.
 
 *__IMPORTANT__: For this library to work, you must first set the "Language for non-Unicode Programs" to the target language you wish to translate into. [See instructions here](https://github.com/JKISoftware/JKI-Simple-Localization/wiki/Configuring-Windows-Language-(System-Locale))*
 
-This library has just a few simple VIs that are required for use:
+This library has just a handful of simple VIs required for use:
 
 - Initialize - Loads a dictionary file
 - Set Language - Sets/changes the desired target language
-- Register VI - Registers a VI who's front panel will be translated to the target language
+- Register VI - Registers a VI who's front panel will be translated to the target language any time Set Language is called.
+- Translate Phrase - allows translating a phrase from the default language to the target language, which is helpful for passing text in the default (programmers language) programmatically to dialogs (which should be displayed in the target/translated language).
 
 ### Palette
 
