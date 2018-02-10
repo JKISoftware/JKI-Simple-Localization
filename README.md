@@ -13,6 +13,11 @@ You can download and install JKI Simple Localization with VI Package Manager.
 
 [Get JKI Simple Localization](http://vipm.jki.net/#!/package/jki_lib_simple-localization)
 
+### Requirements
+- LabVIEW 2017 or greater
+- Windows 7 or greater
+- [VIPM 2017](https://vipm.jki.net) or greater
+
 ## Usage
 
 *__IMPORTANT__: For this library to work, you must first set the "Language for non-Unicode Programs" to the target language you wish to translate into. [See instructions here](https://github.com/JKISoftware/JKI-Simple-Localization/wiki/Configuring-Windows-Language-(System-Locale))*
