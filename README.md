@@ -1,7 +1,9 @@
 # JKI Simple Localization
 A very simple LabVIEW toolkit for localizing VI front panels
 
-{long description}
+This toolkit makes use of the "[Language for non-Unicode programs](https://www.digitalcitizen.life/changing-display-language-used-non-unicode-programs)" setting in Windows (located in the "Region and Language" settings). The toolkit uses a dictionary file (in Unicode format) to store phrases in several different languages.  The toolkit will translate from the default language (typically English) to the target language specified as the "Language for non-Unicode programs" in Windows.
+
+In this way, LabVIEW developers have a simple way to localize their applications, even though LabVIEW does not support Unicode, out-of-the-box.
 
 ## Installation
 
@@ -11,17 +13,26 @@ You can download and install JKI Simple Localization with VI Package Manager.
 
 ## Usage
 
-{documentation}
+*__IMPORTANT__: For this library to work, you must first set the "Language for non-Unicode Programs" to the target language you wish to translate into. [See instructions here](https://github.com/JKISoftware/JKI-Simple-Localization/wiki/Configuring-Windows-Language-(System-Locale))*
+
+This library has just a few simple VIs that are required for use:
+
+- Initialize - Loads a dictionary file
+- Set Language - Sets/changes the desired target language
+- Register VI - Registers a VI who's front panel will be translated to the target language
 
 ### Palette
 
-{documentation}
+![2018-02-09_20-19-26](https://user-images.githubusercontent.com/381432/36058495-8ac46168-0dd6-11e8-8749-be8b7c416222.png)
 
 ### Examples
 
-You can find examples on how to use Caraya under the LabVIEW examples directory
+See the Localization Demo VI on the *Functions >> JKI Tools >> JKI Simple Localization* palette.
 
-`<LabVIEW>\examples\JKI Toolkits\JKI Simple Localization`
+![2018-02-09_20-25-27](https://user-images.githubusercontent.com/381432/36058515-61539302-0dd7-11e8-886c-cb0b1eb9592a.png)\
+
+![2018-02-09_20-25-42](https://user-images.githubusercontent.com/381432/36058517-6aaadf8c-0dd7-11e8-9a34-486cab52e7cd.png)
+
 
 ## Support
 
