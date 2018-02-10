@@ -29,7 +29,13 @@ This library has just a few simple VIs that are required for use:
 
 See the Localization Demo VI on the *Functions >> JKI Tools >> JKI Simple Localization* palette.
 
-![2018-02-09_20-25-27](https://user-images.githubusercontent.com/381432/36058515-61539302-0dd7-11e8-886c-cb0b1eb9592a.png)\
+Run the VI and then choose a target language from the drop-down list.
+
+__English__
+
+![2018-02-09_20-25-27](https://user-images.githubusercontent.com/381432/36058515-61539302-0dd7-11e8-886c-cb0b1eb9592a.png)
+
+__Chinese__
 
 ![2018-02-09_20-25-42](https://user-images.githubusercontent.com/381432/36058517-6aaadf8c-0dd7-11e8-9a34-486cab52e7cd.png)
 
