@@ -1,5 +1,5 @@
 # JKI Simple Localization
-A very simple LabVIEW toolkit for localizing VI front panels
+A very simple LabVIEW toolkit for localizing VI front panels, based on a dictionary translation file.
 
 This toolkit makes use of the "[Language for non-Unicode programs](https://www.digitalcitizen.life/changing-display-language-used-non-unicode-programs)" setting in Windows (located in the "Region and Language" settings). The toolkit uses a dictionary file (in Unicode format) to store phrases in several different languages.  The toolkit will translate from the default language (typically English) to the target language specified as the "Language for non-Unicode programs" in Windows.
 
