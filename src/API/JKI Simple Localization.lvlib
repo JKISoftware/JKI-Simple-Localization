@@ -55,5 +55,6 @@
 		<Item Name="Set Language.vi" Type="VI" URL="../Set Language.vi"/>
 		<Item Name="Translate Phrase.vi" Type="VI" URL="../Translate Phrase.vi"/>
 		<Item Name="Uninitialize.vi" Type="VI" URL="../Uninitialize.vi"/>
+		<Item Name="Get OS Primary Language.vi" Type="VI" URL="../Get OS Primary Language.vi"/>
 	</Item>
 </Library>
