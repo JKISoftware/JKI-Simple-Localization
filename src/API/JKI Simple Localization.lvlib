@@ -51,9 +51,9 @@
 		<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 		<Item Name="Get Languages.vi" Type="VI" URL="../Get Languages.vi"/>
 		<Item Name="Register VI(s).vi" Type="VI" URL="../Register VI(s).vi"/>
-		<Item Name="Translate VI.vi" Type="VI" URL="../Translate VI.vi"/>
+		<Item Name="Set Langauge (by VI).vi" Type="VI" URL="../Set Langauge (by VI).vi"/>
 		<Item Name="Set Language.vi" Type="VI" URL="../Set Language.vi"/>
-		<Item Name="Translate Phrase.vi" Type="VI" URL="../Translate Phrase.vi"/>
+		<Item Name="Get Localized Phrase.vi" Type="VI" URL="../Get Localized Phrase.vi"/>
 		<Item Name="Uninitialize.vi" Type="VI" URL="../Uninitialize.vi"/>
 		<Item Name="Get OS Primary Language.vi" Type="VI" URL="../Get OS Primary Language.vi"/>
 	</Item>
