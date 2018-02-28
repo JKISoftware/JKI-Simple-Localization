@@ -28,8 +28,11 @@ This library has just a handful of simple VIs required for use:
 - Set Language - Sets/changes the desired target language all registered VIs.
 - Register VI - Registers a VI whose front panel will be localized to the target language any time Set Language is called.
 - Set Language (By VI) - Sets/changes the desired target language of the VI without adding it to the registry.
-- Get Localized Phrase - allows translating a phrase from the default language to the target language, which is helpful for passing text in the default (programmers language) programmatically to dialogs (which should be displayed in the target/translated language).
+- Get Localized Phrase - Allows translating a phrase from the default language to the target language, which is helpful for passing text in the default (programmers language) programmatically to dialogs (which should be displayed in the target/translated language).
 - Get Languages - Gets all languages configured in the dictionary file.
+- Generate Dictionary - Generates a dictionary file using the localizable text shown on the VIs in the current language. The file will need to be updated to include all additional languages.
+
+*_NOTE_: This library uses key value pairs to localize phrases. By default, control and indicator _labels_ are used as the key to localize the caption, which should be shown instead of labels. 
 
 ### Palette
 
