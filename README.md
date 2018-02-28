@@ -33,23 +33,27 @@ This library has just a handful of simple VIs required for use:
 
 ### Palette
 
-![2018-02-09_20-19-26](https://user-images.githubusercontent.com/381432/36058495-8ac46168-0dd6-11e8-8749-be8b7c416222.png)
+![SimpleLocalizationPalette](https://github.com/JKISoftware/JKI-Simple-Localization/blob/master/documentation%20support/Simple%20Localization%20Palette.png)
 
 ### Examples
 
 See the Localization Demo VI on the *Functions >> JKI Tools >> JKI Simple Localization* palette.
 
-![2018-02-09_20-10-19](https://user-images.githubusercontent.com/381432/36058622-606c2e6a-0dda-11e8-9a97-9e60134c2a05.png)
+![LocalizationDemoPalette](https://github.com/JKISoftware/JKI-Simple-Localization/blob/master/documentation%20support/Localization%20Demo%20Palette.png)
 
 Run the VI and then choose a target language from the drop-down list.
 
 __English__
 
-![2018-02-09_20-25-27](https://user-images.githubusercontent.com/381432/36058515-61539302-0dd7-11e8-886c-cb0b1eb9592a.png)
+![Example_english](https://github.com/JKISoftware/JKI-Simple-Localization/blob/master/documentation%20support/Example_english.png)
+
+__Dutch__
+
+![Example_dutch](https://github.com/JKISoftware/JKI-Simple-Localization/blob/master/documentation%20support/Example_dutch.png)
 
 __Chinese__
 
-![2018-02-09_20-25-42](https://user-images.githubusercontent.com/381432/36058517-6aaadf8c-0dd7-11e8-9a34-486cab52e7cd.png)
+![Example_chinese](https://github.com/JKISoftware/JKI-Simple-Localization/blob/master/documentation%20support/Example_chinese.png)
 
 ## Dictionary file
 
