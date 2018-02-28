@@ -32,7 +32,7 @@ This library has just a handful of simple VIs required for use:
 - Get Languages - Gets all languages configured in the dictionary file.
 - Generate Dictionary - Generates a dictionary file using the localizable text shown on the VIs in the current language. The file will need to be updated to include all additional languages.
 
-*_NOTE_: This library uses key value pairs to localize phrases. By default, control and indicator _labels_ are used as the key to localize the caption, which should be shown instead of labels. 
+*__NOTE__: This library uses key value pairs to localize phrases. By default, control and indicator __labels__ are used as the key to localize the __caption__, which should be shown instead of labels.*
 
 ### Palette
 
