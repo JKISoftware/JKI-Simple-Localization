@@ -1,9 +1,9 @@
 # JKI Simple Localization
 A very simple LabVIEW toolkit for localizing VI front panels, based on a dictionary translation file.
 
-This toolkit makes use of the "[Language for non-Unicode programs](https://www.digitalcitizen.life/changing-display-language-used-non-unicode-programs)" setting in Windows (located in the "Region and Language" settings). The toolkit uses a plaintext dictionary file (can be in Unicode format) to store phrases in several different languages.  The toolkit will translate from the default language (typically English) to the target language specified as the "Language for non-Unicode programs" in Windows.
+This toolkit makes use of the "[Language for non-Unicode programs](https://www.digitalcitizen.life/changing-display-language-used-non-unicode-programs)" setting in Windows (located in the "Region and Language" settings). The toolkit uses a JSON dictionary file (can be in Unicode format) to store phrases in several different languages.  The toolkit will translate from the default language (typically English) to the target language specified as the "Language for non-Unicode programs" in Windows.
 
-It does all this by making calls into the Windows API to translate the Unicode 16-bit characters from the dictionary into 8-bit non-unicode characters that can be displayed by non-Unicode programe (assuming the "Language for non-Unicode programs" has been properly set in Windows).
+It does all this by making calls into the Windows API to translate the Unicode 16-bit characters from the dictionary into 8-bit non-unicode characters that can be displayed by non-Unicode program (assuming the "Language for non-Unicode programs" has been properly set in Windows).
 
 In this way, LabVIEW developers have a simple way to localize their applications, even though LabVIEW does not support Unicode, out-of-the-box.
 
@@ -24,10 +24,12 @@ You can download and install JKI Simple Localization with VI Package Manager.
 
 This library has just a handful of simple VIs required for use:
 
-- Initialize - Loads a dictionary file
-- Set Language - Sets/changes the desired target language
-- Register VI - Registers a VI who's front panel will be translated to the target language any time Set Language is called.
-- Translate Phrase - allows translating a phrase from the default language to the target language, which is helpful for passing text in the default (programmers language) programmatically to dialogs (which should be displayed in the target/translated language).
+- Initialize - Loads a dictionary file.
+- Set Language - Sets/changes the desired target language all registered VIs.
+- Register VI - Registers a VI whose front panel will be localized to the target language any time Set Language is called.
+- Set Language (By VI) - Sets/changes the desired target language of the VI without adding it to the registry.
+- Get Localized Phrase - allows translating a phrase from the default language to the target language, which is helpful for passing text in the default (programmers language) programmatically to dialogs (which should be displayed in the target/translated language).
+- Get Languages - Gets all languages configured in the dictionary file.
 
 ### Palette
 
@@ -49,6 +51,11 @@ __Chinese__
 
 ![2018-02-09_20-25-42](https://user-images.githubusercontent.com/381432/36058517-6aaadf8c-0dd7-11e8-9a34-486cab52e7cd.png)
 
+## Dictionary file
+
+The dictionary file uses JSON format to list the languages, font information for each language, and key-value pairs linking each key to a set or localized phrases in each language in the dictionary.
+
+[Example Dictionary File](https://github.com/JKISoftware/JKI-Simple-Localization/wiki/Example-Dictionary-File)
 
 ## Support
 
