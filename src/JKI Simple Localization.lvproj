@@ -18,8 +18,6 @@
 						<Item Name="GetTestDictionaryPath.vi" Type="VI" URL="../../tests/Caraya/Support/GetTestDictionaryPath.vi"/>
 						<Item Name="TranslateMe.vi" Type="VI" URL="../../tests/Caraya/Support/TranslateMe.vi"/>
 						<Item Name="WriteTranslateMeToDictionary.vi" Type="VI" URL="../../tests/Caraya/Support/WriteTranslateMeToDictionary.vi"/>
-						<Item Name="WriteVIDictionary.vi" Type="VI" URL="../../tests/Caraya/Support/WriteVIDictionary.vi"/>
-						<Item Name="GetVIText.vi" Type="VI" URL="../../tests/Caraya/Support/GetVIText.vi"/>
 						<Item Name="TestDictionary.JSON" Type="Document" URL="../../tests/Caraya/Support/TestDictionary.JSON"/>
 					</Item>
 					<Item Name="TestInitialize.vi" Type="VI" URL="../../tests/Caraya/TestInitialize.vi"/>
@@ -151,6 +149,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="GetVIText.vi" Type="VI" URL="../Private/GetVIText.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

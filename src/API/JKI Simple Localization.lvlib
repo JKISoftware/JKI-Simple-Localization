@@ -56,5 +56,6 @@
 		<Item Name="Get Localized Phrase.vi" Type="VI" URL="../Get Localized Phrase.vi"/>
 		<Item Name="Uninitialize.vi" Type="VI" URL="../Uninitialize.vi"/>
 		<Item Name="Get OS Primary Language.vi" Type="VI" URL="../Get OS Primary Language.vi"/>
+		<Item Name="Generate Dictionary.vi" Type="VI" URL="../Generate Dictionary.vi"/>
 	</Item>
 </Library>

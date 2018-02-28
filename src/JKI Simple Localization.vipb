@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-02-09 19:12:04" Modified_Date="2018-02-26 14:59:42" Creator="Jim Kring" Comments="" ID="39ca7ad7d5aadf7e58911b5e542bb391">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-02-09 19:12:04" Modified_Date="2018-02-28 17:02:44" Creator="Jim Kring" Comments="" ID="be4f24935f60813341ff22f80a988618">
   <Library_General_Settings>
     <Package_File_Name>JKI_Simple_Localization</Package_File_Name>
-    <Library_Version>1.0.0.9</Library_Version>
+    <Library_Version>1.0.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -17,7 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <External_Dependencies>jki_lib_json_serialization &gt;= 1.1.10.37</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
+      <Direct_Dependencies>jki_lib_json_serialization-1.1.10.37</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
@@ -343,7 +345,21 @@
         <Path>Example\Localization Demo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8713EF44651F398EA47E21C31CBBEE2</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Generate Dictionary.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>API\Generate Dictionary.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>98AC0D938729EA361CF801E7AF535915</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
