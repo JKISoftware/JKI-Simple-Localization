@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-02-09 19:12:04" Modified_Date="2018-02-28 17:02:44" Creator="Jim Kring" Comments="" ID="be4f24935f60813341ff22f80a988618">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-02-09 19:12:04" Modified_Date="2018-02-28 21:58:57" Creator="Jim Kring" Comments="" ID="4c55fd0619464c540f0ea5d2c5760813">
   <Library_General_Settings>
     <Package_File_Name>JKI_Simple_Localization</Package_File_Name>
-    <Library_Version>1.0.0.10</Library_Version>
+    <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -106,6 +106,12 @@
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Tools Menu/JKI Simple Localization</Path>
+        <Destination>7</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -113,8 +119,8 @@
       </Password_Overrides>
       <Namespace_Overrides>
         <Path>.</Path>
-        <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace/>
+        <Namespace_Type>Suffix</Namespace_Type>
+        <Namespace>JKI_Simple_Localization</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>JKI Simple Localization.lvproj</Path>
@@ -359,7 +365,7 @@
         <Path>API\Generate Dictionary.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98AC0D938729EA361CF801E7AF535915</GUID>
+      <GUID>2FAD2AC50C00685E45C71CD37DB9E2EB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

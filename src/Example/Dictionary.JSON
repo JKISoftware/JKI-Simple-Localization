@@ -55,30 +55,6 @@
             ]
         },
         {
-            "Key":"Target Language (optional)",
-            "Phrases":[
-                "Target Language (optional)",
-                "Doeltaal (optioneel)",
-                "目标语言"
-            ]
-        },
-        {
-            "Key":"Translated Phrase",
-            "Phrases":[
-                "Translated Phrase",
-                "Vertaalde zin",
-                "翻译过的短语"
-            ]
-        },
-        {
-            "Key":"Translate Me",
-            "Phrases":[
-                "Translate Me",
-                "Vertaal Mij",
-                "翻译我"
-            ]
-        },
-        {
             "Key":"Data.Display.xAxisLabel",
             "Phrases":[
                 "Time (sec)",
@@ -164,6 +140,46 @@
                 "Exit",
                 "Verlaten",
                 "出口"
+            ]
+        },
+        {
+            "Key":"Exit.BoolText",
+            "Phrases":[
+                "Exit",
+                "Verlaten",
+                "出口"
+            ]
+        },
+        {
+            "Key":"DialogText",
+            "Phrases":[
+                "This is an example of a localized string value.",
+                "Dit is een voorbeeld van een gelokaliseerde tekenreekswaarde",
+                "这是一个本地化字符串值的例子"
+            ]
+        },
+        {
+            "Key":"DialogConfirmation",
+            "Phrases":[
+                "Okay",
+                "Oke",
+                "好的"
+            ]
+        },
+        {
+            "Key":"Show Dialog",
+            "Phrases":[
+                "Show Localized Dialog",
+                "Toon gelokaliseerde dialoog",
+                "显示本地化对话"
+            ]
+        },
+        {
+            "Key":"Show Dialog.BoolText",
+            "Phrases":[
+                "Show",
+                "Toon",
+                "显示"
             ]
         }
     ]
