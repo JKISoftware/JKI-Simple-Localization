@@ -29,10 +29,14 @@
 				<Item Name="LocalizationUnitTestSuite.vi" Type="VI" URL="../../tests/Caraya/LocalizationUnitTestSuite.vi"/>
 			</Item>
 		</Item>
+		<Item Name="Tools Menu" Type="Folder">
+			<Item Name="Localize This VI.vi" Type="VI" URL="../Tools Menu/JKI Simple Localization/Localize This VI.vi"/>
+		</Item>
 		<Item Name="JKI Simple Localization.lvlib" Type="Library" URL="../API/JKI Simple Localization.lvlib"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="../Example/VI Tree.vi"/>
 		<Item Name="Localization Demo.vi" Type="VI" URL="../Example/Localization Demo.vi"/>
 		<Item Name="JKI Simple Localization.vipc" Type="Document" URL="../JKI Simple Localization.vipc"/>
+		<Item Name="JKI Simple Localization.vipb" Type="Document" URL="../JKI Simple Localization.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -94,6 +98,9 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Clear All Errors__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Clear All Errors__ogtk.vi"/>
