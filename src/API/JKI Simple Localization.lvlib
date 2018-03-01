@@ -20,6 +20,7 @@
 	</Item>
 	<Item Name="Private Methods" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="FGV" Type="Folder">
 			<Item Name="CheckIfLanguagePresent.vi" Type="VI" URL="../../Private/CheckIfLanguagePresent.vi"/>
 			<Item Name="FGV.ApplyLanguageToAll.vi" Type="VI" URL="../../Private/FGV.ApplyLanguageToAll.vi"/>
@@ -34,17 +35,22 @@
 			<Item Name="Ctrl.StyleFont.vi" Type="VI" URL="../../Private/Ctrl.StyleFont.vi"/>
 			<Item Name="ReadFontStyle.vi" Type="VI" URL="../../Private/ReadFontStyle.vi"/>
 		</Item>
+		<Item Name="TestReadWrite.vi" Type="VI" URL="../../Private/TestReadWrite.vi"/>
+		<Item Name="AddVIsToDictionary.vi" Type="VI" URL="../../Private/AddVIsToDictionary.vi"/>
 		<Item Name="Get Windows Primary Language.vi" Type="VI" URL="../../Private/Get Windows Primary Language.vi"/>
 		<Item Name="GetStringFromRing.vi" Type="VI" URL="../../Private/GetStringFromRing.vi"/>
 		<Item Name="LocalizeKeyLowLevel.vi" Type="VI" URL="../../Private/LocalizeKeyLowLevel.vi"/>
 		<Item Name="LocalizeVI.vi" Type="VI" URL="../../Private/LocalizeVI.vi"/>
 		<Item Name="ReadDictionary - private.vi" Type="VI" URL="../../Private/ReadDictionary - private.vi"/>
+		<Item Name="WriteDictionary - private.vi" Type="VI" URL="../../Private/WriteDictionary - private.vi"/>
+		<Item Name="GenerateDictionaryFromVIs.vi" Type="VI" URL="../../Private/GenerateDictionaryFromVIs.vi"/>
 		<Item Name="readUnicodeFile.vi" Type="VI" URL="../../Private/readUnicodeFile.vi"/>
 		<Item Name="Register single VI.vi" Type="VI" URL="../../Private/Register single VI.vi"/>
 		<Item Name="RegisterVI.vi" Type="VI" URL="../../Private/RegisterVI.vi"/>
 		<Item Name="RegisterVIs.vi" Type="VI" URL="../../Private/RegisterVIs.vi"/>
 		<Item Name="SetControlSpecific.vi" Type="VI" URL="../../Private/SetControlSpecific.vi"/>
 		<Item Name="unicodeStringToASCII.vi" Type="VI" URL="../../Private/unicodeStringToASCII.vi"/>
+		<Item Name="ASCIIstringToUnicode.vi" Type="VI" URL="../../Private/ASCIIstringToUnicode.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -56,6 +62,6 @@
 		<Item Name="Get Localized Phrase.vi" Type="VI" URL="../Get Localized Phrase.vi"/>
 		<Item Name="Uninitialize.vi" Type="VI" URL="../Uninitialize.vi"/>
 		<Item Name="Get OS Primary Language.vi" Type="VI" URL="../Get OS Primary Language.vi"/>
-		<Item Name="Generate Dictionary.vi" Type="VI" URL="../Generate Dictionary.vi"/>
+		<Item Name="Localize VIs.vi" Type="VI" URL="../Localize VIs.vi"/>
 	</Item>
 </Library>
