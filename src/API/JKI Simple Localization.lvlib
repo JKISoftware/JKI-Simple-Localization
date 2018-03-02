@@ -50,7 +50,6 @@
 		<Item Name="RegisterVIs.vi" Type="VI" URL="../../Private/RegisterVIs.vi"/>
 		<Item Name="SetControlSpecific.vi" Type="VI" URL="../../Private/SetControlSpecific.vi"/>
 		<Item Name="unicodeStringToASCII.vi" Type="VI" URL="../../Private/unicodeStringToASCII.vi"/>
-		<Item Name="ASCIIstringToUnicode.vi" Type="VI" URL="../../Private/ASCIIstringToUnicode.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
