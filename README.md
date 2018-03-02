@@ -1,3 +1,5 @@
+*Do you have JKI Simple Localization questions, ideas, or challenges you'd like discuss? Join the conversation happening in the [JKI Simple Localization Community Forum](https://forums.jki.net/forum/73-jki-simple-localization/).*
+
 # JKI Simple Localization
 A very simple LabVIEW toolkit for localizing VI front panels, based on a dictionary translation file.
 
