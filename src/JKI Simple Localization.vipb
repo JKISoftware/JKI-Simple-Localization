@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-02-09 19:12:04" Modified_Date="2018-03-02 15:08:24" Creator="Jim Kring" Comments="" ID="7b720a1bfd65fd0d9617880ed382a1f9">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2018-02-09 19:12:04" Modified_Date="2018-03-05 13:15:44" Creator="Jim Kring" Comments="" ID="72f08b31255efb0b3259e36487aea61d">
   <Library_General_Settings>
     <Package_File_Name>JKI_Simple_Localization</Package_File_Name>
-    <Library_Version>1.0.0.18</Library_Version>
+    <Library_Version>1.0.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -370,7 +370,7 @@
         <Path>Example\Localization Demo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8252EFCC0C20BFDAC0123D4CDA18F24B</GUID>
+      <GUID>C0B82E7677BACB6BE268C4149F984939</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -405,7 +405,7 @@
         <Path>API\Localize VIs.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AA26E3F32A9A5EFD684F9EB7354E2671</GUID>
+      <GUID>FD2CB8C9EB7314F6F928ABA022726C62</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

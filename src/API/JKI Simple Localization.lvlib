@@ -36,7 +36,7 @@
 			<Item Name="ReadFontStyle.vi" Type="VI" URL="../../Private/ReadFontStyle.vi"/>
 		</Item>
 		<Item Name="TestReadWrite.vi" Type="VI" URL="../../Private/TestReadWrite.vi"/>
-		<Item Name="AddVIsToDictionary.vi" Type="VI" URL="../../Private/AddVIsToDictionary.vi"/>
+		<Item Name="AddVIsToDictionary_DEPRECATED.vi" Type="VI" URL="../../Private/AddVIsToDictionary_DEPRECATED.vi"/>
 		<Item Name="Get Windows Primary Language.vi" Type="VI" URL="../../Private/Get Windows Primary Language.vi"/>
 		<Item Name="GetStringFromRing.vi" Type="VI" URL="../../Private/GetStringFromRing.vi"/>
 		<Item Name="LocalizeKeyLowLevel.vi" Type="VI" URL="../../Private/LocalizeKeyLowLevel.vi"/>
