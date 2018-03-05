@@ -1,170 +1,231 @@
 {
-    "Languages":[
+  "Languages": [
+    "English",
+    "Dutch",
+    "Chinese"
+  ],
+  "Fonts": [
+    {
+      "Language": "English",
+      "Name": "Arial",
+    },
+    {
+      "Language": "Dutch",
+      "Name": "Arial",
+    },
+    {
+      "Language": "Chinese",
+      "Name": "SimSun",
+    }
+  ],
+  "Phrase Dictionary": [
+    {
+        "Key":"Current Date and Time",
+        "Phrases":[
+            "Current Date or Time",
+            "Huidige Datum of Tijd",
+            "当前日期或时间"
+        ]
+    },
+    {
+        "Key":"Date and Time.Item0",
+        "Phrases":[
+            "Show Localized Time",
+            "Toon Gelokaliseerde Tijd",
+            "显示本地化时间"
+        ]
+    },
+    {
+        "Key":"Date and Time.Item1",
+        "Phrases":[
+            "Show Localized Date",
+            "Toon Gelokaliseerde Datum",
+            "显示本地化日期"
+        ]
+    },
+    {
+        "Key":"Date and Time",
+        "Phrases":[
+            "Date and Time",
+            "Datum en Tijd",
+            "日期和时间"
+        ]
+    },
+    {
+        "Key":"Date Format",
+        "Phrases":[
+            "%<%m-%d-%Y>T",
+            "%<%d-%m-%Y>T",
+            "%<%Y年%m月%d日>T"
+        ]
+    },
+    {
+        "Key":"Time Format",
+        "Phrases":[
+            "%<%I:%M:%S>T",
+            "%<%H:%M:%S>T",
+            "%<%H時%M分%S秒>T"
+        ]
+    },
+    {
+      "Key": "Language ListBox.Item0",
+      "Phrases": [
         "English",
+        "Engels",
+        "英语"
+      ]
+    },
+    {
+      "Key": "Language ListBox.Item1",
+      "Phrases": [
         "Dutch",
-        "Chinese"
-    ],
-    "Fonts":[
-        {
-            "Language":"English",
-            "Name":"Roboto Light",
-            "Color":3947580
-        },
-        {
-            "Language":"Dutch",
-            "Name":"Roboto Light",
-            "Color":3947580
-        },
-        {
-            "Language":"Chinese",
-            "Name":"SimSun",
-            "Color":3947580
-        }
-    ],
-    "Phrase Dictionary":[
-        {
-            "Key":"Language ListBox.Item0",
-            "Phrases":[
-                "English",
-                "Engels",
-                "英语"
-            ]
-        },
-        {
-            "Key":"Language ListBox.Item1",
-            "Phrases":[
-                "Dutch",
-                "Nederlands",
-                "荷兰人"
-            ]
-        },
-        {
-            "Key":"Language ListBox.Item2",
-            "Phrases":[
-                "Chinese",
-                "Chinese",
-                "中文"
-            ]
-        },
-        {
-            "Key":"Language ListBox",
-            "Phrases":[
-                "Language",
-                "Taal",
-                "语言"
-            ]
-        },
-        {
-            "Key":"Target Language (optional)",
-            "Phrases":[
-                "Target Language (optional)",
-                "Doeltaal (optioneel)",
-                "目标语言"
-            ]
-        },
-        {
-            "Key":"Translated Phrase",
-            "Phrases":[
-                "Translated Phrase",
-                "Vertaalde zin",
-                "翻译过的短语"
-            ]
-        },
-        {
-            "Key":"Translate Me",
-            "Phrases":[
-                "Translate Me",
-                "Vertaal Mij",
-                "翻译我"
-            ]
-        },
-        {
-            "Key":"Data.Display.xAxisLabel",
-            "Phrases":[
-                "Time (sec)",
-                "Tijd (sec)",
-                "时间（秒"
-            ]
-        },
-        {
-            "Key":"Data.Display.yAxisLabel",
-            "Phrases":[
-                "Voltage (V)",
-                "Voltage (V)",
-                "电压（V)"
-            ]
-        },
-        {
-            "Key":"Data.Display",
-            "Phrases":[
-                "Incoming Data",
-                "Inkomende Gegevens",
-                "传入数据"
-            ]
-        },
-        {
-            "Key":"Error.False",
-            "Phrases":[
-                "OFF",
-                "UIT",
-                "关闭"
-            ]
-        },
-        {
-            "Key":"Error.True",
-            "Phrases":[
-                "ON",
-                "AAN",
-                "上"
-            ]
-        },
-        {
-            "Key":"Error",
-            "Phrases":[
-                "Error",
-                "Fout",
-                "错误"
-            ]
-        },
-        {
-            "Key":"CustomControl.Increment.False",
-            "Phrases":[
-                "Okay",
-                "Oke",
-                "好的"
-            ]
-        },
-        {
-            "Key":"CustomControl.Increment.True",
-            "Phrases":[
-                "+1",
-                "+1",
-                "+1"
-            ]
-        },
-        {
-            "Key":"CustomControl.Increment",
-            "Phrases":[
-                "Increment",
-                "Nam Toe",
-                "增量"
-            ]
-        },
-        {
-            "Key":"Count",
-            "Phrases":[
-                "Count",
-                "Tel",
-                "伯爵"
-            ]
-        },
-        {
-            "Key":"Exit",
-            "Phrases":[
-                "Exit",
-                "Verlaten",
-                "出口"
-            ]
-        }
-    ]
+        "Nederlands",
+        "荷兰人"
+      ]
+    },
+    {
+      "Key": "Language ListBox.Item2",
+      "Phrases": [
+        "Chinese",
+        "Chinese",
+        "中文"
+      ]
+    },
+    {
+      "Key": "Language ListBox",
+      "Phrases": [
+        "Language",
+        "Taal",
+        "语言"
+      ]
+    },
+    {
+      "Key": "Data.Display.xAxisLabel",
+      "Phrases": [
+        "Time (sec)",
+        "Tijd (sec)",
+        "时间（秒"
+      ]
+    },
+    {
+      "Key": "Data.Display.yAxisLabel",
+      "Phrases": [
+        "Voltage (V)",
+        "Voltage (V)",
+        "电压（V)"
+      ]
+    },
+    {
+      "Key": "Data.Display",
+      "Phrases": [
+        "Incoming Data",
+        "Inkomende Gegevens",
+        "传入数据"
+      ]
+    },
+    {
+      "Key": "Error.False",
+      "Phrases": [
+        "OFF",
+        "UIT",
+        "关闭"
+      ]
+    },
+    {
+      "Key": "Error.True",
+      "Phrases": [
+        "ON",
+        "AAN",
+        "上"
+      ]
+    },
+    {
+      "Key": "Error",
+      "Phrases": [
+        "Error",
+        "Fout",
+        "错误"
+      ]
+    },
+    {
+      "Key": "CustomControl.Increment.False",
+      "Phrases": [
+        "Okay",
+        "Oke",
+        "好的"
+      ]
+    },
+    {
+      "Key": "CustomControl.Increment.True",
+      "Phrases": [
+        "+1",
+        "+1",
+        "+1"
+      ]
+    },
+    {
+      "Key": "CustomControl.Increment",
+      "Phrases": [
+        "Increment",
+        "Nam Toe",
+        "增量"
+      ]
+    },
+    {
+      "Key": "Count",
+      "Phrases": [
+        "Count",
+        "Tel",
+        "伯爵"
+      ]
+    },
+    {
+      "Key": "Exit",
+      "Phrases": [
+        "Exit",
+        "Verlaten",
+        "出口"
+      ]
+    },
+    {
+      "Key": "Exit.BoolText",
+      "Phrases": [
+        "Exit",
+        "Verlaten",
+        "出口"
+      ]
+    },
+    {
+      "Key": "DialogText",
+      "Phrases": [
+        "This is an example of a localized string value.",
+        "Dit is een voorbeeld van een gelokaliseerde tekenreekswaarde",
+        "这是一个本地化字符串值的例子"
+      ]
+    },
+    {
+      "Key": "DialogConfirmation",
+      "Phrases": [
+        "Okay",
+        "Oke",
+        "好的"
+      ]
+    },
+    {
+      "Key": "Show Dialog",
+      "Phrases": [
+        "Show Localized Dialog",
+        "Toon gelokaliseerde dialoog",
+        "显示本地化对话"
+      ]
+    },
+    {
+      "Key": "Show Dialog.BoolText",
+      "Phrases": [
+        "Show",
+        "Toon",
+        "显示"
+      ]
+    }
+  ]
 }

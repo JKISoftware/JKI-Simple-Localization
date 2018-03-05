@@ -11,20 +11,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Tests" Type="Folder">
+		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="Caraya" Type="Folder">
 				<Item Name="Tests" Type="Folder">
 					<Item Name="Support" Type="Folder">
 						<Item Name="GetTestDictionaryPath.vi" Type="VI" URL="../../tests/Caraya/Support/GetTestDictionaryPath.vi"/>
 						<Item Name="TranslateMe.vi" Type="VI" URL="../../tests/Caraya/Support/TranslateMe.vi"/>
-						<Item Name="WriteTranslateMeToDictionary.vi" Type="VI" URL="../../tests/Caraya/Support/WriteTranslateMeToDictionary.vi"/>
 						<Item Name="TestDictionary.JSON" Type="Document" URL="../../tests/Caraya/Support/TestDictionary.JSON"/>
 					</Item>
 					<Item Name="TestInitialize.vi" Type="VI" URL="../../tests/Caraya/TestInitialize.vi"/>
 					<Item Name="TestGetLanguages.vi" Type="VI" URL="../../tests/Caraya/TestGetLanguages.vi"/>
 					<Item Name="TestRegisterVI.vi" Type="VI" URL="../../tests/Caraya/TestRegisterVI.vi"/>
-					<Item Name="TestTranslateVI.vi" Type="VI" URL="../../tests/Caraya/TestTranslateVI.vi"/>
+					<Item Name="TestSetLanguage(byVI).vi" Type="VI" URL="../../tests/Caraya/TestSetLanguage(byVI).vi"/>
 					<Item Name="TestSetLanguage.vi" Type="VI" URL="../../tests/Caraya/TestSetLanguage.vi"/>
+					<Item Name="TestGetLocalizedPhrase.vi" Type="VI" URL="../../tests/Caraya/TestGetLocalizedPhrase.vi"/>
+					<Item Name="TestGetOSPrimaryLanguage.vi" Type="VI" URL="../../tests/Caraya/TestGetOSPrimaryLanguage.vi"/>
+					<Item Name="TestLocalizeVIs.vi" Type="VI" URL="../../tests/Caraya/TestLocalizeVIs.vi"/>
 				</Item>
 				<Item Name="LocalizationUnitTestSuite.vi" Type="VI" URL="../../tests/Caraya/LocalizationUnitTestSuite.vi"/>
 			</Item>
