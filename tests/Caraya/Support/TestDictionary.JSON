@@ -1,71 +1,70 @@
 {
+  "Format Version": "1.0",
   "Languages": [
-    "English",
-    "Dutch",
-    "Chinese"
-  ],
-  "Fonts": [
     {
       "Language": "English",
-      "Name": "Arial",
+      "Font": "Arial",
+      "Color": ""
     },
     {
       "Language": "Dutch",
-      "Name": "Arial",
+      "Font": "Arial",
+      "Color": "rbg(55,55,55)"
     },
     {
       "Language": "Chinese",
-      "Name": "SimSun",
+      "Font": "",
+      "Color": "rgb(0,0,0)"
     }
   ],
   "Phrase Dictionary": [
     {
-        "Key":"Current Date and Time",
-        "Phrases":[
-            "Current Date or Time",
-            "Huidige Datum of Tijd",
-            "当前日期或时间"
-        ]
+      "Key": "Current Date and Time",
+      "Phrases": [
+        "Current Date or Time",
+        "Huidige Datum of Tijd",
+        "当前日期或时间"
+      ]
     },
     {
-        "Key":"Date and Time.Item0",
-        "Phrases":[
-            "Show Localized Time",
-            "Toon Gelokaliseerde Tijd",
-            "显示本地化时间"
-        ]
+      "Key": "Date and Time.Item0",
+      "Phrases": [
+        "Show Localized Time",
+        "Toon Gelokaliseerde Tijd",
+        "显示本地化时间"
+      ]
     },
     {
-        "Key":"Date and Time.Item1",
-        "Phrases":[
-            "Show Localized Date",
-            "Toon Gelokaliseerde Datum",
-            "显示本地化日期"
-        ]
+      "Key": "Date and Time.Item1",
+      "Phrases": [
+        "Show Localized Date",
+        "Toon Gelokaliseerde Datum",
+        "显示本地化日期"
+      ]
     },
     {
-        "Key":"Date and Time",
-        "Phrases":[
-            "Date and Time",
-            "Datum en Tijd",
-            "日期和时间"
-        ]
+      "Key": "Date and Time",
+      "Phrases": [
+        "Date and Time",
+        "Datum en Tijd",
+        "日期和时间"
+      ]
     },
     {
-        "Key":"Date Format",
-        "Phrases":[
-            "%<%m-%d-%Y>T",
-            "%<%d-%m-%Y>T",
-            "%<%Y年%m月%d日>T"
-        ]
+      "Key": "Date Format",
+      "Phrases": [
+        "%<%m-%d-%Y>T",
+        "%<%d-%m-%Y>T",
+        "%<%Y年%m月%d日>T"
+      ]
     },
     {
-        "Key":"Time Format",
-        "Phrases":[
-            "%<%I:%M:%S>T",
-            "%<%H:%M:%S>T",
-            "%<%H時%M分%S秒>T"
-        ]
+      "Key": "Time Format",
+      "Phrases": [
+        "%<%I:%M:%S>T",
+        "%<%H:%M:%S>T",
+        "%<%H時%M分%S秒>T"
+      ]
     },
     {
       "Key": "Language ListBox.Item0",
