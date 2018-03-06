@@ -10,11 +10,11 @@
 	<Item Name="Definitions" Type="Folder">
 		<Item Name="Private" Type="Folder">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-			<Item Name="Font Info.ctl" Type="VI" URL="../../Definitions/Private/Font Info.ctl"/>
-			<Item Name="FontCluster.ctl" Type="VI" URL="../../Definitions/Private/FontCluster.ctl"/>
-			<Item Name="Phrase Dictionary.ctl" Type="VI" URL="../../Definitions/Private/Phrase Dictionary.ctl"/>
-			<Item Name="Translation.Action.ctl" Type="VI" URL="../../Definitions/Private/Translation.Action.ctl"/>
-			<Item Name="VI Info.ctl" Type="VI" URL="../../Definitions/Private/VI Info.ctl"/>
+			<Item Name="Font -- Cluster.ctl" Type="VI" URL="../../Definitions/Private/Font -- Cluster.ctl"/>
+			<Item Name="Font Info -- Cluster.ctl" Type="VI" URL="../../Definitions/Private/Font Info -- Cluster.ctl"/>
+			<Item Name="Localization FGV Action -- Enum.ctl" Type="VI" URL="../../Definitions/Private/Localization FGV Action -- Enum.ctl"/>
+			<Item Name="Phrase Dictionary Entry -- Cluster.ctl" Type="VI" URL="../../Definitions/Private/Phrase Dictionary Entry -- Cluster.ctl"/>
+			<Item Name="VI Info -- Cluster.ctl" Type="VI" URL="../../Definitions/Private/VI Info -- Cluster.ctl"/>
 		</Item>
 		<Item Name="Dictionary--Cluster.ctl" Type="VI" URL="../../Definitions/Dictionary--Cluster.ctl"/>
 	</Item>
@@ -35,7 +35,6 @@
 			<Item Name="Ctrl.StyleFont.vi" Type="VI" URL="../../Private/Ctrl.StyleFont.vi"/>
 			<Item Name="ReadFontStyle.vi" Type="VI" URL="../../Private/ReadFontStyle.vi"/>
 		</Item>
-		<Item Name="TestReadWrite.vi" Type="VI" URL="../../Private/TestReadWrite.vi"/>
 		<Item Name="Get Windows Primary Language.vi" Type="VI" URL="../../Private/Get Windows Primary Language.vi"/>
 		<Item Name="GetStringFromRing.vi" Type="VI" URL="../../Private/GetStringFromRing.vi"/>
 		<Item Name="LocalizeKeyLowLevel.vi" Type="VI" URL="../../Private/LocalizeKeyLowLevel.vi"/>
