@@ -21,11 +21,11 @@
 	<Item Name="Private Methods" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="FGV" Type="Folder">
-			<Item Name="CheckIfLanguagePresent.vi" Type="VI" URL="../../Private/CheckIfLanguagePresent.vi"/>
-			<Item Name="FGV.ApplyLanguageToAll.vi" Type="VI" URL="../../Private/FGV.ApplyLanguageToAll.vi"/>
-			<Item Name="FGV.CheckIfVIRegistered.vi" Type="VI" URL="../../Private/FGV.CheckIfVIRegistered.vi"/>
-			<Item Name="Localization FGV.vi" Type="VI" URL="../../Private/Localization FGV.vi"/>
+		<Item Name="VI Registration" Type="Folder">
+			<Item Name="CheckIfVIRegistered.vi" Type="VI" URL="../../Private/CheckIfVIRegistered.vi"/>
+			<Item Name="RegisterSingleVI.vi" Type="VI" URL="../../Private/RegisterSingleVI.vi"/>
+			<Item Name="RegisterVI.vi" Type="VI" URL="../../Private/RegisterVI.vi"/>
+			<Item Name="RegisterVIs.vi" Type="VI" URL="../../Private/RegisterVIs.vi"/>
 		</Item>
 		<Item Name="StyleFonts" Type="Folder">
 			<Item Name="Ctrl.Bool.StyleFont.vi" Type="VI" URL="../../Private/Ctrl.Bool.StyleFont.vi"/>
@@ -35,19 +35,23 @@
 			<Item Name="Ctrl.StyleFont.vi" Type="VI" URL="../../Private/Ctrl.StyleFont.vi"/>
 			<Item Name="ReadFontStyle.vi" Type="VI" URL="../../Private/ReadFontStyle.vi"/>
 		</Item>
-		<Item Name="Get Windows Primary Language.vi" Type="VI" URL="../../Private/Get Windows Primary Language.vi"/>
-		<Item Name="GetStringFromRing.vi" Type="VI" URL="../../Private/GetStringFromRing.vi"/>
-		<Item Name="LocalizeKeyLowLevel.vi" Type="VI" URL="../../Private/LocalizeKeyLowLevel.vi"/>
-		<Item Name="LocalizeVI.vi" Type="VI" URL="../../Private/LocalizeVI.vi"/>
-		<Item Name="ReadDictionary - private.vi" Type="VI" URL="../../Private/ReadDictionary - private.vi"/>
-		<Item Name="WriteDictionary - private.vi" Type="VI" URL="../../Private/WriteDictionary - private.vi"/>
-		<Item Name="GenerateDictionaryFromVIs.vi" Type="VI" URL="../../Private/GenerateDictionaryFromVIs.vi"/>
-		<Item Name="readUnicodeFile.vi" Type="VI" URL="../../Private/readUnicodeFile.vi"/>
-		<Item Name="Register single VI.vi" Type="VI" URL="../../Private/Register single VI.vi"/>
-		<Item Name="RegisterVI.vi" Type="VI" URL="../../Private/RegisterVI.vi"/>
-		<Item Name="RegisterVIs.vi" Type="VI" URL="../../Private/RegisterVIs.vi"/>
-		<Item Name="SetControlSpecific.vi" Type="VI" URL="../../Private/SetControlSpecific.vi"/>
-		<Item Name="unicodeStringToASCII.vi" Type="VI" URL="../../Private/unicodeStringToASCII.vi"/>
+		<Item Name="Dictionary Operations" Type="Folder">
+			<Item Name="ReadDictionary.vi" Type="VI" URL="../../Private/ReadDictionary.vi"/>
+			<Item Name="WriteDictionary.vi" Type="VI" URL="../../Private/WriteDictionary.vi"/>
+			<Item Name="GenerateDictionaryFromVIs.vi" Type="VI" URL="../../Private/GenerateDictionaryFromVIs.vi"/>
+			<Item Name="ReadUnicodeFile.vi" Type="VI" URL="../../Private/ReadUnicodeFile.vi"/>
+			<Item Name="UnicodeStringToASCII.vi" Type="VI" URL="../../Private/UnicodeStringToASCII.vi"/>
+		</Item>
+		<Item Name="Language and Translation" Type="Folder">
+			<Item Name="GetLocalizedPhraseLowLevel.vi" Type="VI" URL="../../Private/GetLocalizedPhraseLowLevel.vi"/>
+			<Item Name="GetControlSpecificLocalizedPhrase.vi" Type="VI" URL="../../Private/GetControlSpecificLocalizedPhrase.vi"/>
+			<Item Name="LocalizeVI.vi" Type="VI" URL="../../Private/LocalizeVI.vi"/>
+			<Item Name="IsLanguagePresent.vi" Type="VI" URL="../../Private/IsLanguagePresent.vi"/>
+			<Item Name="ApplyLanguageToAll.vi" Type="VI" URL="../../Private/ApplyLanguageToAll.vi"/>
+			<Item Name="GetWindowsPrimaryLanguage.vi" Type="VI" URL="../../Private/GetWindowsPrimaryLanguage.vi"/>
+			<Item Name="GetStringFromRing.vi" Type="VI" URL="../../Private/GetStringFromRing.vi"/>
+		</Item>
+		<Item Name="LocalizationFGV.vi" Type="VI" URL="../../Private/LocalizationFGV.vi"/>
 	</Item>
 	<Item Name="Public API" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
