@@ -66,6 +66,8 @@ The dictionary file uses JSON format to list the languages, font information for
 
 [Example Dictionary File](https://github.com/JKISoftware/JKI-Simple-Localization/wiki/Example-Dictionary-File)
 
+A formatted dictionary file can be generated from a VI front panel by going to Tools >> JKI Simple Localization Palette >> Localize This VI... *[See instructions here](https://github.com/JKISoftware/JKI-Simple-Localization/wiki/Generating-a-Localization-File-From-a-VI)*
+
 ## Support
 
 If you encounter incorrect or undocumented behavior or would like to file a new feature request, you can do so by filing a new issue on
