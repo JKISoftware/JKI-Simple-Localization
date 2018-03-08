@@ -86,7 +86,7 @@
       "Key": "Language ListBox.Item2",
       "Phrases": [
         "Chinese",
-        "Chinese",
+        "Chinees",
         "中文"
       ]
     },
@@ -118,7 +118,7 @@
       "Key": "Data.Display",
       "Phrases": [
         "Incoming Data",
-        "Inkomende Gegevens",
+        "Inkomende Data",
         "传入数据"
       ]
     },
@@ -166,7 +166,7 @@
       "Key": "CustomControl.Increment",
       "Phrases": [
         "Increment",
-        "Nam Toe",
+        "Incrementeel",
         "增量"
       ]
     },
@@ -174,7 +174,7 @@
       "Key": "Count",
       "Phrases": [
         "Count",
-        "Tel",
+        "Telling",
         "伯爵"
       ]
     },
@@ -198,7 +198,7 @@
       "Key": "DialogText",
       "Phrases": [
         "This is an example of a localized string value.",
-        "Dit is een voorbeeld van een gelokaliseerde tekenreekswaarde",
+        "Dit is een voorbeeld van een gelokaliseerde string",
         "这是一个本地化字符串值的例子"
       ]
     },
