@@ -13,7 +13,7 @@ In this way, LabVIEW developers have a simple way to localize their applications
 
 You can download and install JKI Simple Localization with VI Package Manager.
 
-[Get JKI Simple Localization](http://vipm.jki.net/#!/package/jki_lib_simple-localization)
+[Get JKI Simple Localization](http://vipm.jki.net/package/jki_simple-localization)
 
 ### Requirements
 - LabVIEW 2017 or greater
