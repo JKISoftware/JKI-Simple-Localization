@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2018-02-09 19:12:04" Modified_Date="2018-03-08 12:38:45" Creator="Jim Kring" Comments="" ID="98d84b85c9436e03efd348c35f95d08b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-02-09 19:12:04" Modified_Date="2020-10-30 16:12:33" Creator="Jim Kring" Comments="" ID="e7ab20e741c14936e322f8c4ed6bb5a8">
   <Library_General_Settings>
     <Package_File_Name>JKI_Simple_Localization</Package_File_Name>
-    <Library_Version>1.0.0.24</Library_Version>
+    <Library_Version>1.0.0.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -18,9 +18,15 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>jki_lib_json_serialization &gt;= 1.1.10.37</External_Dependencies>
+      <External_Dependencies>jki_lib_serialization &gt;= 1.0.1.14</External_Dependencies>
+      <External_Dependencies>jki_lib_unicode &gt;= 1.0.0.7</External_Dependencies>
       <External_Dependencies>oglib_error &gt;= 4.2.0.23</External_Dependencies>
+      <External_Dependencies>oglib_lvdata &gt;= 4.2.0.21</External_Dependencies>
       <Direct_Dependencies>jki_lib_json_serialization-1.1.10.37</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_serialization-1.0.1.14</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_unicode-1.0.0.7</Direct_Dependencies>
       <Direct_Dependencies>oglib_error-4.2.0.23</Direct_Dependencies>
+      <Direct_Dependencies>oglib_lvdata-4.2.0.21</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -37,7 +43,7 @@
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-Simple-Localization</URL>
-      <Release_Notes/>
+      <Release_Notes>Initial public release</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -370,7 +376,7 @@
         <Path>Example\Localization Demo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>876EF82EA860ECEA9FD5E6815770BBF4</GUID>
+      <GUID>AA1DCF2B0E4200AE593C67CCD6C10798</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -405,7 +411,7 @@
         <Path>API\Localize VIs.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>945E53A505A149F0942C260B123348A2</GUID>
+      <GUID>66B8C804A10AA5D1404B974E99F61AB7</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
