@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-02-09 19:12:04" Modified_Date="2020-11-02 10:30:39" Creator="Jim Kring" Comments="" ID="2c75e617867373fb01e85045099f8c8a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-02-09 19:12:04" Modified_Date="2020-11-02 10:43:34" Creator="Jim Kring" Comments="" ID="9ea227723716d73311167a74cea8e4ac">
   <Library_General_Settings>
     <Package_File_Name>JKI_Simple_Localization</Package_File_Name>
     <Library_Version>1.0.1.27</Library_Version>
@@ -38,8 +38,12 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>JKI Simple Localization.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>A very simple LabVIEW toolkit for localizing VI front panels</One_Line_Description_Summary>
-      <Description/>
+      <One_Line_Description_Summary>A very simple LabVIEW toolkit for localizing VI front panels, based on a dictionary translation file.</One_Line_Description_Summary>
+      <Description>This toolkit makes use of the "Language for non-Unicode programs" setting in Windows (located in the "Region and Language" settings). The toolkit uses a JSON dictionary file (can be in Unicode format) to store phrases in several different languages. The toolkit will translate from the default language (typically English) to the target language specified as the "Language for non-Unicode programs" in Windows.
+
+It does all this by making calls into the Windows API to translate the Unicode 16-bit characters from the dictionary into 8-bit non-unicode characters that can be displayed by non-Unicode program (assuming the "Language for non-Unicode programs" has been properly set in Windows).
+
+In this way, LabVIEW developers have a simple way to localize their applications, even though LabVIEW does not support Unicode, out-of-the-box.</Description>
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-Simple-Localization</URL>
