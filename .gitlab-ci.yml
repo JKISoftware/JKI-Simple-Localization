@@ -43,5 +43,7 @@ Build:
     artifacts:
         paths:
         - "*.vip"
+        reports:
+            junit: report.xml
 
     
