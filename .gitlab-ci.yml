@@ -1,0 +1,47 @@
+# added a comment to trigger a new build 4
+
+stages:
+    - build
+
+Build:
+    stage: build
+    before_script:
+        - >
+            try {
+                Write-Host "Checking if LabVIEW is running";
+                $labview = Get-Process LabVIEW -ErrorAction SilentlyContinue;
+            } catch {
+                Write-Host "LabVIEW is not running";
+                $labview = 0;
+            } finally {
+                $Error.Clear();
+            }
+        - >
+            if ($labview) {
+                # try gracefully first
+                Write-Host "Attempting to closing LabVIEW gracefully";
+                $labview.CloseMainWindow();
+                # kill after five seconds
+                Sleep 5;
+                if (!$labview.HasExited) {
+                    Write-Host "LabVIEW Still Running, killing LabVIEW";
+                    $labview | Stop-Process -Force;
+                }
+            }
+        - $VIObjCache = "$HOME\My Documents\LabVIEW Data\VIObjCache"
+        - >
+            if (Test-Path -Path "$VIObjCache" -PathType Container) {
+                Write-Host "VIObjCache found. Deleting.";
+                Remove-Item "$VIObjCache" -Force -Recurse -ErrorAction SilentlyContinue;
+            } else {
+                Write-Host "No VIObjCache found. Skipping delete.";
+            }
+
+    script:
+        # start the build with G CLI
+        - g-cli --timeout 120000 -v --lv-ver 2017 "build support\G-CLI-Build.vi"
+    artifacts:
+        paths:
+        - "*.vip"
+
+    
