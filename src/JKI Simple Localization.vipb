@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-02-09 19:12:04" Modified_Date="2020-11-02 10:43:34" Creator="Jim Kring" Comments="" ID="9ea227723716d73311167a74cea8e4ac">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-02-09 19:12:04" Modified_Date="2020-12-10 10:07:45" Creator="Jim Kring" Comments="" ID="84c2b8ab3d55f7b86cd90b7c24275dbc">
   <Library_General_Settings>
     <Package_File_Name>JKI_Simple_Localization</Package_File_Name>
-    <Library_Version>1.0.1.27</Library_Version>
+    <Library_Version>1.0.2.31</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -47,7 +47,7 @@ In this way, LabVIEW developers have a simple way to localize their applications
       <Copyright/>
       <Packager>JKI</Packager>
       <URL>https://github.com/JKISoftware/JKI-Simple-Localization</URL>
-      <Release_Notes>Minor fix of package installation issue</Release_Notes>
+      <Release_Notes>Fix #30 - Boolean text with "multiple strings" (different strings for TRUE and FALSE) is reversed</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -380,7 +380,7 @@ In this way, LabVIEW developers have a simple way to localize their applications
         <Path>Example\Localization Demo.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5D7849003A8FEF3BEEB35D50DC8A089B</GUID>
+      <GUID>584F4C3DB6EFFAEE6C5E48123E3C844A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -415,7 +415,7 @@ In this way, LabVIEW developers have a simple way to localize their applications
         <Path>API\Localize VIs.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>176D0BEDA8C48846F7CAE9E44D8CB465</GUID>
+      <GUID>EACBFA9B6D90754BE1EAB9AE337397D0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
