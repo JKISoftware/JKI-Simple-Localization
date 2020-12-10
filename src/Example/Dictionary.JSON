@@ -225,6 +225,30 @@
         "Toon",
         "显示"
       ]
-    }
+    },
+	{
+		"Key":"Button with Multiple Strings.False",
+		"Phrases":[
+			"Off text",
+			"Uit tekst",
+			"文字关闭"
+		]
+	},
+	{
+		"Key":"Button with Multiple Strings.True",
+		"Phrases":[
+			"On text",
+			"Op tekst",
+			"在文字上"
+		]
+	},
+	{
+		"Key":"Button with Multiple Strings",
+		"Phrases":[
+			"Button with Multiple Strings",
+			"Knop met meerdere snaren",
+			"具有多个字符串的按钮"
+		]
+	}
   ]
 }
