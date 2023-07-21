@@ -3,6 +3,13 @@
 # JKI Simple Localization
 A very simple LabVIEW toolkit for localizing VI front panels, based on a dictionary translation file.
 
+[![Image](https://www.vipm.io/package/jki_simple_localization/badge.svg?metric=installs)](https://www.vipm.io/package/jki_simple_localization/)
+[![Image](https://www.vipm.io/package/jki_simple_localization/badge.svg?metric=stars)](https://www.vipm.io/package/jki_simple_localization/)
+![LabVIEW Version](https://img.shields.io/badge/LabVIEW-2017-%23E37725.svg?})
+![Windows OS](https://img.shields.io/badge/Platform-Windows-blue.svg?})
+
+
+
 This toolkit makes use of the "[Language for non-Unicode programs](https://www.digitalcitizen.life/changing-display-language-used-non-unicode-programs)" setting in Windows (located in the "Region and Language" settings). The toolkit uses a JSON dictionary file (can be in Unicode format) to store phrases in several different languages.  The toolkit will translate from the default language (typically English) to the target language specified as the "Language for non-Unicode programs" in Windows.
 
 It does all this by making calls into the Windows API to translate the Unicode 16-bit characters from the dictionary into 8-bit non-unicode characters that can be displayed by non-Unicode program (assuming the "Language for non-Unicode programs" has been properly set in Windows).
